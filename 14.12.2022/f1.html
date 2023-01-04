@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<style>
+  
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-image: linear-gradient(to right,blue,purple,rgb(79, 55, 212));
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+ width: 400px;
+ height: 500px;
+ margin-left: auto;
+ margin-right: auto;
+}
+#a{
+    color: grey;
+    font-size: 15px;
+}
+#b{
+    color: grey;
+    font-size: 15px;
+}
+.c{
+    color: gray;
+    text-align: left;
+    font-size: 15px;
+}
+#d{
+    font-size: 40px;
+    
+}
+
+</style>
+<body style="background-image: linear-gradient(to right, blue , purple);">
+
+
+
+<div>
+  <form action="/action_page.php">
+    <center><p id="d">
+        <b>Login</b></p></center>
+       <center> <i> <input type="radio" name="nazwa"  > Student </i>
+    
+        <i> <input type="radio" name="nazwa"  > Teacher </i>
+    </center>
+    <label for="fname"><p class="c">Username</p></label>
+    <input type="text" id="fname" name="firstname" placeholder="Type your username">
+
+    <label for="lname"><p class="c">Password</p></label>
+    <input type="text" id="lname" name="lastname" placeholder="Type your password">
+
+    
+  
+    <input type="submit" value="Login">
+<br><br><br>
+  
+
+    <center><p id="a">Or Sign Up Using for Student</p> <p id = "b">SIGN UP</p></center>
+  </form>
+</div>
+
+</body>
+</html>
+
+
